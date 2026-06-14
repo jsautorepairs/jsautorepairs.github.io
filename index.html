@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ====== EDIT THESE ====== -->
+<!-- Business name placeholder: change "JS Auto Repairs" everywhere -->
+<!-- Phone number placeholder: change 447000000000 (WhatsApp, no + no spaces) and 07000 000000 (display) -->
+<!-- ======================== -->
+
+<title>JS Auto Repairs | Car Servicing & Repairs in Milton, Stoke-on-Trent</title>
+<meta name="description" content="Honest, affordable car repairs in Milton, Stoke-on-Trent. Servicing, brakes, tyres, exhausts, diagnostics and welding. Last-minute slots, no dealership prices. Message on WhatsApp for a quick quote.">
+
+<meta property="og:title" content="JS Auto Repairs | Car Servicing & Repairs in Stoke-on-Trent">
+<meta property="og:description" content="Honest, affordable car repairs in Milton, Stoke. Fast turnaround, WhatsApp a quote in minutes.">
+<meta property="og:type" content="website">
+
+<style>
+  :root{
+    --bg:#0f1115;
+    --panel:#171a21;
+    --line:#262b35;
+    --text:#eef1f6;
+    --muted:#9aa3b2;
+    --accent:#ff6a2b;
+    --wa:#25d366;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--text);line-height:1.55;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  a{color:inherit}
+
+  /* sticky mobile CTA bar */
+  .cta-bar{
+    position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;gap:8px;
+    padding:10px;background:rgba(15,17,21,.92);backdrop-filter:blur(8px);border-top:1px solid var(--line);
+  }
+  .cta-bar a{flex:1;text-align:center;padding:14px;border-radius:12px;font-weight:700;text-decoration:none;font-size:15px}
+  .btn-wa{background:var(--wa);color:#04210f}
+  .btn-call{background:var(--panel);color:var(--text);border:1px solid var(--line)}
+
+  /* hero */
+  header.hero{padding:64px 0 40px;border-bottom:1px solid var(--line);
+    background:radial-gradient(1200px 400px at 70% -10%, rgba(255,106,43,.12), transparent);}
+  .eyebrow{color:var(--accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
+  h1{font-size:clamp(30px,6vw,46px);line-height:1.08;margin:12px 0 14px;font-weight:800}
+  .sub{color:var(--muted);font-size:18px;max-width:560px}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+  .hero-cta a{padding:14px 22px;border-radius:12px;font-weight:700;text-decoration:none}
+  .hero-cta .btn-wa{background:var(--wa);color:#04210f}
+  .hero-cta .btn-call{background:transparent;color:var(--text);border:1px solid var(--line)}
+  .trust{display:flex;flex-wrap:wrap;gap:18px;margin-top:24px;color:var(--muted);font-size:14px}
+  .trust span{display:flex;align-items:center;gap:7px}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);display:inline-block}
+
+  section{padding:48px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:26px;font-weight:800;margin-bottom:6px}
+  .lead{color:var(--muted);margin-bottom:26px;max-width:620px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{font-size:17px;margin-bottom:5px}
+  .card p{color:var(--muted);font-size:14px}
+
+  .why{display:grid;grid-template-columns:1fr;gap:14px}
+  @media(min-width:680px){.why{grid-template-columns:1fr 1fr}}
+  .why .card{display:flex;gap:12px;align-items:flex-start}
+  .why .num{color:var(--accent);font-weight:800;font-size:20px;line-height:1.1}
+
+  .area{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .pill{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:14px;color:var(--muted)}
+
+  .final{text-align:center;padding:56px 0 96px}
+  .final h2{font-size:30px}
+  .final p{color:var(--muted);margin:10px auto 24px;max-width:480px}
+  .final .btn-wa{display:inline-block;background:var(--wa);color:#04210f;padding:16px 30px;border-radius:14px;font-weight:800;text-decoration:none;font-size:17px}
+
+  footer{padding:28px 0 110px;color:var(--muted);font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Milton · Stoke-on-Trent</p>
+    <h1>Honest car repairs,<br>without the dealership price.</h1>
+    <p class="sub">Local mechanic in Milton. Quick turnaround, fair prices, and a straight answer. Message on WhatsApp and get a quote back fast.</p>
+    <div class="hero-cta">
+      <a class="btn-wa" href="https://wa.me/447759336969?text=Hi%2C%20I%20need%20a%20quote%20for%20my%20car" target="_blank" rel="noopener">Message on WhatsApp</a>
+      <a class="btn-call" href="tel:+447759336969">Call 07759 336969</a>
+    </div>
+    <div class="trust">
+      <span><i class="dot"></i> Cheaper than the dealers</span>
+      <span><i class="dot"></i> Last-minute slots</span>
+      <span><i class="dot"></i> No job too small</span>
+    </div>
+  </div>
+</header>
+
+<!-- SERVICES -->
+<section>
+  <div class="wrap">
+    <h2>What we do</h2>
+    <p class="lead">Fast, common repairs done properly. If it's a quick fix, you won't be waiting days for it.</p>
+    <div class="grid">
+      <div class="card"><h3>Servicing & oil changes</h3><p>Keep it running right. Oil, filters and a once-over.</p></div>
+      <div class="card"><h3>Brakes</h3><p>Pads, discs and fluid. Stop squealing, stop fast.</p></div>
+      <div class="card"><h3>Tyres</h3><p>Supply and fitting. Sorted same day where we can.</p></div>
+      <div class="card"><h3>Exhausts</h3><p>Repairs and replacements, no faff.</p></div>
+      <div class="card"><h3>Diagnostics</h3><p>Engine light on? We'll read the fault and tell you straight.</p></div>
+      <div class="card"><h3>Welding</h3><p>Bodywork and exhaust welding. Not everyone offers it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section>
+  <div class="wrap">
+    <h2>Why people call us</h2>
+    <p class="lead">No middleman, no sales patter. Just a good mechanic you can actually get hold of.</p>
+    <div class="why">
+      <div class="card"><div class="num">1</div><div><h3>Fair, honest pricing</h3><p>You'll know the cost before we start. No surprise bills.</p></div></div>
+      <div class="card"><div class="num">2</div><div><h3>We pick up the phone</h3><p>Message on WhatsApp and get a real reply, not a call centre.</p></div></div>
+      <div class="card"><div class="num">3</div><div><h3>Quick when you're stuck</h3><p>Need it done last-minute? We'll fit you in where we can.</p></div></div>
+      <div class="card"><div class="num">4</div><div><h3>Years under the bonnet</h3><p>Experienced hands. The work's done right the first time.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- AREA -->
+<section>
+  <div class="wrap">
+    <h2>Where we cover</h2>
+    <p class="lead">Based in Milton, covering Stoke-on-Trent and the surrounding area.</p>
+    <div class="area">
+      <span class="pill">Milton</span>
+      <span class="pill">Stoke-on-Trent</span>
+      <span class="pill">Norton</span>
+      <span class="pill">Sneyd Green</span>
+      <span class="pill">Bucknall</span>
+      <span class="pill">Abbey Hulton</span>
+      <span class="pill">Smallthorne</span>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <div class="wrap">
+    <h2>Got a problem with your car?</h2>
+    <p>Send a quick message with what's up and we'll get you a price. No obligation.</p>
+    <a class="btn-wa" href="https://wa.me/447759336969?text=Hi%2C%20I%20need%20a%20quote%20for%20my%20car" target="_blank" rel="noopener">Message on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    JS Auto Repairs · Milton, Stoke-on-Trent · <a href="tel:+447759336969">07759 336969</a>
+  </div>
+</footer>
+
+<!-- STICKY MOBILE CTA -->
+<div class="cta-bar">
+  <a class="btn-wa" href="https://wa.me/447759336969?text=Hi%2C%20I%20need%20a%20quote%20for%20my%20car" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="btn-call" href="tel:+447759336969">Call</a>
+</div>
+
+<!-- LOCAL SEO: structured data so Google understands the business -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"AutoRepair",
+  "name":"JS Auto Repairs",
+  "description":"Honest, affordable car servicing and repairs in Milton, Stoke-on-Trent. Brakes, tyres, exhausts, diagnostics and welding.",
+  "areaServed":["Milton","Stoke-on-Trent","Norton","Bucknall","Abbey Hulton"],
+  "telephone":"+447759336969",
+  "priceRange":"££",
+  "address":{"@type":"PostalAddress","addressLocality":"Milton","addressRegion":"Stoke-on-Trent","addressCountry":"GB"},
+  "openingHours":"Mo-Sa 08:00-18:00"
+}
+</script>
+
+</body>
+</html>
